@@ -1,0 +1,283 @@
+a {
+  text-decoration: none;
+}
+
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    background-color: #f8fafa;
+}
+
+$font: 'Montserrat';
+$font_color: #444;
+
+.container {
+    background-color: #f8fafa;
+    width: auto;
+    margin: auto;
+    padding: 0 0 0 0;
+}
+
+.panel-body {
+  font-size: 15px;
+}
+
+.blog-container {
+  max-width: 1080px;
+  height: auto;
+  position: relative;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #f8fafa;
+
+  .add-post-button {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 25px;
+    position: relative;
+  }
+
+  .archive-post-button {
+    max-width: 150px;
+    margin: auto;
+    position: relative;
+  }
+
+  hr {
+    margin-top: 40px;
+    display: block;
+    height: 1px;
+    width: 77%;
+    border: 0;
+    border-top: 1px solid #02b8dd;
+    left: 0;
+    right: 0;
+    padding: 0;
+  }
+
+
+  .post-list-container {
+    max-width: 645px;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #fff;
+
+    .post-list-list {
+      li {
+          max-width: 645px;
+          height: 64px;
+          margin: auto;
+      }
+
+      li:hover {
+        color: #fff;
+        background-color: #02b8dd;
+        a {
+          color: #fff;
+        }
+      }
+
+      li a, a:visited, a:link, a:active {
+        color: $font_color;
+        font-size: 20px;
+        max-width: 645px;
+        line-height: 65px;
+        margin: auto;
+        font-style: $font;
+      }
+    }
+  }
+
+  .hero-item-container {
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: auto;
+    max-width: 645px;
+  }
+
+  .hero-item-title {
+    position: relative;
+    font-style: $font;
+    font-weight: bold;
+    color: $font_color;
+    max-width: 650px;
+    height: auto;
+    font-size: 30px;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .hero-item-content {
+    text-align: center;
+    max-width: 650px;
+    height: 90px;
+    font-size: 18px;
+    font-style: $font;
+    color: $font_color;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .post-image {
+      margin: auto;
+      width: 200px;
+      left: 0;
+      right: 0;
+  }
+
+  .hero-item-image {
+    width: 200px;
+    border: 1px solid #444;
+  }
+}
+
+.hero-image {
+  position: relative;
+  width: auto;
+  height: 800px;
+  padding-top: 1px;
+  background: #e8eced url('http://gottagotoursbypatti.com/wp-content/uploads/2014/06/Canadian-Rockies.jpg') no-repeat center;
+
+  #hero-text {
+    position: relative;
+    height: 400px;
+    top: 400px;
+    bottom: 0;
+    font-weight: 300;
+  	color: #fff;
+  	font-size: 55px;
+  	text-transform: uppercase;
+    text-align: center;
+  }
+
+  #strong {
+    font-weight: bold;
+  }
+}
+
+.navbar {
+    position: relative;
+    margin: auto;
+    max-width: 1080px;
+    left: 0;
+    right: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.primary-content-container {
+  max-width: 1080px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 50px;
+  height: auto;
+  color: $font_color;
+	background-color: #f8fafa;
+	text-align: center;
+  border-bottom: 1px solid #02b8dd;
+
+  p {
+    font-size: 18px;
+  }
+
+  .mission-content {
+    margin: auto;
+    max-width: 670px;
+  }
+
+  .itineray-list {
+    margin: auto;
+    max-width: 540px;
+  }
+
+  h2 {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #02b8dd;
+  }
+
+  a img {
+    margin: 20px 0;
+    border: 1px solid #444;
+    width: 540px;
+  }
+
+
+}
+
+.footer {
+    position: relative;
+    width: auto;
+    margin: auto;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    color: $font_color;
+    a:link {
+      color: #02b8dd;
+    }
+}
+
+.create-post {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.btn-primary {
+  margin-right: 5px;
+}
+
+.btn-danger {
+  margin-top: 5px;
+}
+
+.post-show {
+  position: relative;
+  margin: auto;
+  max-width: 1080px;
+}
+
+.post-show-image {
+  display: inline;
+  max-width: 500px;
+}
+
+.img-responsive {
+  display: inline;
+}
+
+.post-archive {
+  position: relative;
+  margin: auto;
+  max-width: 1080px;
+}
+
+.archive-list {
+  position: relative;
+  margin: auto;
+  max-width: 1080px;
+  padding-top: 10px;
+}
+
+.archive-button {
+  width: 150px;
+}
