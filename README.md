@@ -1,3 +1,5 @@
+# VISIT https://www.aradventures.co.uk for the live site
+
 # a&r Adventures website built with React, Redux and firebase
 This is a little side project to create and publish a working website using various technolgies
 
@@ -24,5 +26,3 @@ firebase deploy
 
 This will publish the public folder to firebase which will be hosted
 
-# TODO:
-Authentication for Firebase. Restrict who can write to the database!
